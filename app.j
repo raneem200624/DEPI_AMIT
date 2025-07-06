@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner s=new Scanner(System.in);
+
+       System.out.print("Enter first number: ");
+       double x = s.nextDouble();          //10
+       System.out.print("Enter second number: ");
+       double y = s.nextDouble();         //5
+       System.out.println("Sum: "+(x+y));          //10+5=15.0
+       System.out.println("Difference: "+(x-y));   //10-5=5.0
+       System.out.println("Product: "+(x*y));      //10*5=50.0
+       System.out.println("Quotient: "+(x/y));     //10/5=2.0
+
+
+
+    }
+}
