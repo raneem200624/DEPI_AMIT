@@ -9,7 +9,7 @@ public class ass_2_a {
         for(int i=1;i<=x;i++){
             System.out.print("Enter the student's name:");
             String name=s.nextLine();
-           // s.nextLine();
+            // s.nextLine();
             //System.out.println();
             System.out.print("Enter three exam scores:");
             double y1=s.nextDouble();
