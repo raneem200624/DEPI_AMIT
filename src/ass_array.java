@@ -9,9 +9,10 @@ public class ass_array {
         int total=0;
         int maxx=0,minn=0;
         int count=0;
+        System.out.print("Enter mark: ");
         for(int i=0;i<x;i++)
         {
-            System.out.print("Enter mark: ");
+            //System.out.print("Enter mark: ");
             A[i]=s.nextInt();
             total+=A[i];
             if(A[i]>maxx)
