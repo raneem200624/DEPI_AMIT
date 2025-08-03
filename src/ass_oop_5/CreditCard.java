@@ -10,4 +10,5 @@ public class CreditCard implements Payment{
     public boolean validateCard(String cardDetails) {
         return cardDetails.length()==10;
     }
+
 }

@@ -18,5 +18,4 @@ public class Customer extends User{
         return "Customer: "+name+"[ Email: "+ email +" ]";
     }
 
-
 }

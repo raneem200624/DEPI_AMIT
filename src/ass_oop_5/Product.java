@@ -13,7 +13,6 @@ public class Product {
         setStock(stock);
 
     }
-
     public int getId(){
         return id;
     }
