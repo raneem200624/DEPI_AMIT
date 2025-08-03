@@ -11,6 +11,7 @@ public class Product {
         this.name=name;
         setPrice(price);
         setStock(stock);
+
     }
 
     public int getId(){

@@ -13,4 +13,5 @@ public class User {
     public String getUserDetails(){
         return "User: "+name+" [Email: "+ email +" ]";
     }
+
 }

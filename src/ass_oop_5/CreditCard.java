@@ -8,7 +8,6 @@ public class CreditCard implements Payment{
 
     @Override
     public boolean validateCard(String cardDetails) {
-        //System.out.println("Validating credit card: "+cardDetails);
         return cardDetails.length()==10;
     }
 }

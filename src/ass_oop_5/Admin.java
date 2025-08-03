@@ -14,4 +14,5 @@ public class Admin extends User{
     public String getUserDetails(){
         return "Admin: "+name+", Email: "+ email;
     }
+
 }

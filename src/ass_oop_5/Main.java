@@ -68,27 +68,5 @@ public class Main {
         System.out.print("Updated info: ");
         p.display();
 
-        /*c.getUserDetails();
-        c.placeOrder(id);
-        c.placeOrder(id,stock);*//*
-
-        //a.getUserDetails();
-        a.update(p,price,stock);
-
-       *//* Payment cc=new CreditCard();
-        System.out.println("Enter credit card number: ");
-        String cnum= s.nextLine();
-
-        if(cc.validateCard(cnum)){
-            cc.process(p.getPrice() * quantity);
-        }*//*
-
-        Payment pp =new PayPalPayment();
-        System.out.println("Enter PayPal email: ");
-        String pemail=s.nextLine();
-
-        if(pp.validateCard(pemail)){
-            pp.process(p.getPrice());
-        }*/
     }
 }

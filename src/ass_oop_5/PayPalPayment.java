@@ -11,5 +11,4 @@ public class PayPalPayment implements Payment{
         return email.contains("@");
     }
 
-
 }
